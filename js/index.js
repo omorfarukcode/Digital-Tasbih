@@ -92,4 +92,8 @@ resetBtn.addEventListener("click", function(){
     alhamdulilahDisplay.innerText = 0 ;
     allahuakbarDisplay.innerText = 0 ;
 
+    subhanAllahInitialValue = 0 ;
+    alhamdulilahInitialValue = 0 ;
+    allahuakbarInitialValue = 0 ;
+
 })
