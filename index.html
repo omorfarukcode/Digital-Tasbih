@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./cs/style.css">
+</head>
+<body>
+    <section class=" container mx-auto">
+        <h2 class="text-5xl font-bold text-sky-500 text-center mt-16">Digital Tasbih</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 gap-5 m-5">
+            <div class=" shadow-2xl bg-slate-200 rounded-lg">
+                <h2 class="text-2xl font-bold text-center mt-10">Subhan Allah</h2>
+                <h3 id="subhan-allah-display" class="text-3xl text-center my-5 font-bold">0</h3>
+                <div class=" flex justify-center gap-5 mb-5 mt-10">
+                    <button id="subhan-allah-incriment-btn" class="bg-green-600 text-white font-bold px-5 py-2 rounded-lg">INCRIMENT</button>
+                    <button id="subhan-allah-decriment-btn" class="bg-red-700 text-white font-bold px-5 py-2 rounded-lg">DECRIMENT</button>
+                </div>
+            </div>
+            <div class=" shadow-2xl bg-slate-200 rounded-lg">
+                <h2 class="text-2xl font-bold text-center mt-10">Alhamdulilah</h2>
+                <h3 id="alhamdulilah-display" class="text-3xl text-center my-5 font-bold">0</h3>
+                <div class=" flex justify-center gap-5 mb-5 mt-10">
+                    <button id="alhamdulilah-incriment-btn" class="bg-green-600 text-white font-bold px-5 py-2 rounded-lg">INCRIMENT</button>
+                    <button id="alhamdulilah-decriment-btn" class="bg-red-700 text-white font-bold px-5 py-2 rounded-lg">DECRIMENT</button>
+                </div>
+            </div>
+            <div class=" shadow-2xl bg-slate-200 rounded-lg">
+                <h2 class="text-2xl font-bold text-center mt-10">Allahuakber</h2>
+                <h3 id="allahuakber-display" class="text-3xl text-center my-5 font-bold">0</h3>
+                <div class=" flex justify-center gap-5 mb-5 mt-10">
+                    <button id="allahuakber-incriment-btn" class="bg-green-600 text-white font-bold px-5 py-2 rounded-lg">INCRIMENT</button>
+                    <button id="allahuakber-decriment-btn" class="bg-red-700 text-white font-bold px-5 py-2 rounded-lg">DECRIMENT</button>
+                </div>
+            </div> 
+        </div>
+        <div class="flex justify-center mt-28">
+            <button id="reset-btn" class="bg-orange-500 px-5 py-2 text-lg font-bold text-white rounded-md">Reset All Tasbih</button>
+        </div>
+    </section>
+    <script src="./js/index.js"></script>i
+</body>
+</html>
